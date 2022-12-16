@@ -5,6 +5,7 @@ import { WebsocketProvider } from 'y-websocket'
 import { QuillBinding } from 'y-quill'
 import Quill from 'quill'
 import QuillCursors from 'quill-cursors'
+import './quill.css'
 
 Quill.register('modules/cursors', QuillCursors)
 
