@@ -1,3 +1,32 @@
+.container {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#input-text {
+  border: 1px solid rgb(79,185,227);
+  border-radius: 5px;
+  height: 100px;
+  width: 100%;
+}
+
 #editor {
-  min-height: 500px;
+  border: 2px solid rgb(227, 79, 79);
+  border-radius: 5px;
+  height: 200px;
+  width: 100%;
+}
+
+#delta-container {
+  border: 1px solid rgb(79,185,227);
+  border-radius: 5px;
+  box-sizing: border-box;
+  float: left;
+  margin-right: 15px;
+  height: 400px;
+  width: 100%;
+  font-family: monospace;
+  overflow-y: auto;
+  white-space: pre-wrap;
 }
