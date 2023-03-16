@@ -11,7 +11,7 @@ var toolbarOptions = [
     ['blockquote', 'code-block'],
 
     [{'header': 1}, {'header': 2}],               // custom button values
-    [{'list': 'ordered'}, {'list': 'bullet'}],
+    [{'list': 'ordered'}, {'list': 'bullet'}, {'list': 'check'}],
     [{'script': 'sub'}, {'script': 'super'}],      // superscript/subscript
     [{'indent': '-1'}, {'indent': '+1'}],          // outdent/indent
     [{'direction': 'rtl'}],                         // text direction
